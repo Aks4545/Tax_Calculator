@@ -1,0 +1,53 @@
+ /* Custom CSS for styling */
+ body {
+    background-color: rgb(234, 242, 242); 
+    margin: 0;
+}
+
+.inner_box {
+    border: 1px ;
+    min-height: 92vh;
+    height: auto;
+    width: 98%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.top-bar {
+    background-color: rgb(158, 152, 152); 
+    height: 25px;
+}
+.form-card{
+    margin-top: 50px;  
+    padding: 4rem 4rem .5rem 4rem;
+
+}
+
+
+
+
+/* Center the close button */
+.close {
+    margin: auto;
+}
+
+/* Custom tooltip */
+:root{
+    --tooltip-color: #4c5d6b;
+  }
+  
+  .custom-tooltip > .tooltip-inner {background-color: var(--tooltip-color);}
+
+  .custom-tooltip.bs-tooltip-bottom > .tooltip-arrow::before, .custom-tooltip.bs-tooltip-auto[data-popper-placement^=bottom] > .tooltip-arrow::before {border-bottom-color: var(--tooltip-color);}
+
+.custom-tooltip.bs-tooltip-top > .tooltip-arrow::before, .custom-tooltip.bs-tooltip-auto[data-popper-placement^=top] > .tooltip-arrow::before {border-top-color: var(--tooltip-color);}
+
+.custom-tooltip.bs-tooltip-start > .tooltip-arrow::before, .custom-tooltip.bs-tooltip-auto[data-popper-placement^=left] > .tooltip-arrow::before {border-left-color: var(--tooltip-color);}
+
+.gross-income-tooltip{
+    width: 150px;
+}
+.input-info-icon{
+position: absolute;
+right: 6px;
+top: 6px;
+}
